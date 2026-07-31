@@ -11,6 +11,7 @@ The example product, company, revision, requirement, and evidence are fictional.
 - `src/proof-state.mjs` models before-and-after disclosure behavior.
 - `test/proof-state.test.mjs` verifies the selected UI behavior and evidence state.
 - `example/evidence-example.json` records the fictional revision, surface, checks, and known limitations.
+- [Issue #1](https://github.com/stevenknowswhy/article50-launch-patch-proof/issues/1) gives technical buyers a six-step TypeScript/JavaScript implementation handoff checklist.
 
 Run the checks with Node.js 20 or later:
 
