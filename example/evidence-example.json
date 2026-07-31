@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0",
+  "classification": "fictional-example",
+  "generatedAt": "2026-07-31T20:58:00Z",
+  "product": {
+    "name": "Northstar",
+    "surface": "Support assistant first interaction",
+    "repository": "fictional/northstar-web",
+    "stagingRevision": "fictional-7d31a50"
+  },
+  "scope": {
+    "source": "Fictional buyer-approved implementation requirement",
+    "approvedText": "You are interacting with an AI support assistant.",
+    "legalDeterminationIncluded": false
+  },
+  "implementation": {
+    "route": "/support",
+    "component": "SupportAssistantDisclosure",
+    "behavior": "Render the approved disclosure before the first assistant message"
+  },
+  "verification": {
+    "result": "pass",
+    "checks": [
+      {
+        "name": "disclosure-visible-before-first-message",
+        "method": "automated component test",
+        "result": "pass"
+      },
+      {
+        "name": "keyboard-reachable",
+        "method": "manual keyboard review",
+        "result": "pass"
+      },
+      {
+        "name": "accessible-name-present",
+        "method": "automated accessibility assertion",
+        "result": "pass"
+      },
+      {
+        "name": "mobile-layout-320px",
+        "method": "manual responsive review",
+        "result": "pass"
+      }
+    ]
+  },
+  "limitations": [
+    "This file describes a fictional product and is not client evidence.",
+    "The example tests implementation behavior, not legal sufficiency.",
+    "Production release, monitoring, and third-party model behavior are excluded."
+  ]
+}
