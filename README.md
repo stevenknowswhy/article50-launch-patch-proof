@@ -1,5 +1,7 @@
 # Article 50 Launch Patch — fictional engineering proof
 
+[![Test proof](https://github.com/stevenknowswhy/article50-launch-patch-proof/actions/workflows/test.yml/badge.svg)](https://github.com/stevenknowswhy/article50-launch-patch-proof/actions/workflows/test.yml)
+
 This small repository demonstrates what a bounded implementation handoff can look like after a buyer's counsel or authorized compliance owner has supplied the approved requirement.
 
 The example product, company, revision, requirement, and evidence are fictional. Nothing here is a client result, legal opinion, audit, certification, or compliance guarantee.
