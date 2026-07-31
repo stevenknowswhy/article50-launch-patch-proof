@@ -18,7 +18,9 @@ Run the checks with Node.js 20 or later:
 npm test
 ```
 
-The interactive version and fixed engagement boundary are available at [article50-launch-patch-public.vercel.app](https://article50-launch-patch-public.vercel.app/proof).
+Inspect the [interactive fictional proof](https://article50-launch-patch-public.vercel.app/proof) or the [fixed engagement boundary](https://article50-launch-patch-public.vercel.app/).
+
+Counsel, compliance advisors, and product studios with a named buyer and approved requirement can use the [partner handoff](https://article50-launch-patch-public.vercel.app/#partners). The advisor retains the client and interpretation relationship; Forhemit takes only the bounded production implementation.
 
 ## Boundary
 
