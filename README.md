@@ -9,6 +9,7 @@ The example product, company, revision, requirement, and evidence are fictional.
 ## What is inspectable
 
 - `src/proof-state.mjs` models before-and-after disclosure behavior.
+- `src/disclosure-event.mjs` builds a minimal, immutable render-assertion event that binds an approved notice to a policy, build, surface, locale, evidence ID, timestamp, and normalized notice hash.
 - `test/proof-state.test.mjs` verifies the selected UI behavior and evidence state.
 - `example/evidence-example.json` records the fictional revision, surface, checks, and known limitations.
 - [Issue #1](https://github.com/stevenknowswhy/article50-launch-patch-proof/issues/1) gives technical buyers a six-step TypeScript/JavaScript implementation handoff checklist.
@@ -22,6 +23,10 @@ npm test
 Inspect the [interactive fictional proof](https://article50-launch-patch-public.vercel.app/proof) or the [fixed engagement boundary](https://article50-launch-patch-public.vercel.app/).
 
 Counsel, compliance advisors, and product studios with a named buyer and approved requirement can use the [partner handoff](https://article50-launch-patch-public.vercel.app/#partners). The advisor retains the client and interpretation relationship; Forhemit takes only the bounded production implementation.
+
+## Evidence-event boundary
+
+The event is deliberately named `interaction_disclosure_render_asserted`. A server-side receipt can record that an authenticated integration asserted a render event; it does not prove that a person perceived the notice or that the wording is legally sufficient. A real handoff should pair this event with automated UI evidence for the approved interaction state and keep direct identifiers out of the event where a pseudonymous evidence ID will do.
 
 ## Boundary
 
