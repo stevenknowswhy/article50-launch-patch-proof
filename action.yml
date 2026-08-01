@@ -15,7 +15,7 @@ outputs:
     description: Build revision named by the validated manifest.
 
 runs:
-  using: node20
+  using: node24
   main: action/run.mjs
 
 branding:

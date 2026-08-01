@@ -39,7 +39,7 @@ This repository also ships a dependency-free GitHub Action that validates the st
 
 ```yaml
 - name: Validate implementation evidence
-  uses: stevenknowswhy/article50-launch-patch-proof@v1.2.0
+  uses: stevenknowswhy/article50-launch-patch-proof@v1.3.0
   with:
     manifest-path: example/evidence-example.json
 ```
