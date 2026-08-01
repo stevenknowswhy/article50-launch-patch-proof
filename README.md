@@ -1,10 +1,19 @@
-# Article 50 Launch Patch — fictional engineering proof
+# EU AI Act Article 50 Launch Patch — fictional TypeScript/JavaScript engineering proof
 
 [![Test proof](https://github.com/stevenknowswhy/article50-launch-patch-proof/actions/workflows/test.yml/badge.svg)](https://github.com/stevenknowswhy/article50-launch-patch-proof/actions/workflows/test.yml)
 
 This small repository demonstrates what a bounded implementation handoff can look like after a buyer's counsel or authorized compliance owner has supplied the approved requirement.
 
 The example product, company, revision, requirement, and evidence are fictional. Nothing here is a client result, legal opinion, audit, certification, or compliance guarantee.
+
+## August 2026 implementation path
+
+The European Commission's 20 July 2026 guidelines state that the AI Act Article 50 transparency obligations apply from 2 August 2026. This repository does not determine whether those obligations apply to a product. It gives technical teams an inspectable implementation pattern after qualified counsel or an authorized compliance owner has made that decision and approved the wording and acceptance criteria.
+
+- [Read Article 50 in the EU AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50).
+- [Read the Commission's Article 50 transparency guidelines](https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems).
+- [Try the interactive fictional proof](https://article50-launch-patch-public.vercel.app/proof).
+- [Review fit and request a 20-minute technical fit check](https://article50-launch-patch-public.vercel.app/#fit).
 
 ## What is inspectable
 
