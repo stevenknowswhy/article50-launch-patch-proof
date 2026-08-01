@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private technical fit check
+    url: https://article50-launch-patch-public.vercel.app/fit-check
+    about: Answer six browser-only questions before a human review. Do not submit credentials or sensitive code.
+  - name: Official Article 50 sources
+    url: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50
+    about: Read the official statutory text before relying on this fictional engineering proof.
