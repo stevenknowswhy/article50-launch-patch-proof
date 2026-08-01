@@ -32,6 +32,19 @@ npm test
 
 Inspect the [interactive fictional proof](https://article50-launch-patch-public.vercel.app/proof) or the [fixed engagement boundary](https://article50-launch-patch-public.vercel.app/).
 
+## Reusable CI evidence guard
+
+This repository also ships a dependency-free GitHub Action that validates the structure of a buyer-approved implementation-evidence manifest and requires every recorded technical check to pass. It deliberately rejects top-level compliance assertions and any manifest that says it contains a legal determination.
+
+```yaml
+- name: Validate implementation evidence
+  uses: stevenknowswhy/article50-launch-patch-proof@v1.2.0
+  with:
+    manifest-path: example/evidence-example.json
+```
+
+Copy `example/evidence-example.json`, keep the legal determination flag `false`, name the approved source and product revision, record the implemented behavior and checks, and state known limitations. A passing Action means only that those fields and passing technical checks are present. It is not an applicability decision, legal opinion, audit, certification, or compliance guarantee.
+
 Counsel, compliance advisors, and product studios with a named buyer and approved requirement can use the [partner handoff](https://article50-launch-patch-public.vercel.app/#partners). The advisor retains the client and interpretation relationship; Forhemit takes only the bounded production implementation.
 
 ## Evidence-event boundary

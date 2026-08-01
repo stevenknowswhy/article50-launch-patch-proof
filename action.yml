@@ -1,0 +1,23 @@
+name: Article 50 implementation evidence guard
+description: Validate a buyer-approved technical evidence manifest without claiming legal compliance.
+author: Forhemit Labs
+
+inputs:
+  manifest-path:
+    description: Repository-relative path to the implementation evidence JSON file.
+    required: false
+    default: example/evidence-example.json
+
+outputs:
+  surface:
+    description: Product surface named by the validated manifest.
+  build-revision:
+    description: Build revision named by the validated manifest.
+
+runs:
+  using: node20
+  main: action/run.mjs
+
+branding:
+  icon: shield
+  color: blue

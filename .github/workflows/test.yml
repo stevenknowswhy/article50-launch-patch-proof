@@ -20,3 +20,7 @@ jobs:
           node-version: 22
       - name: Run tests
         run: npm test
+      - name: Validate the fictional implementation evidence
+        uses: ./
+        with:
+          manifest-path: example/evidence-example.json
