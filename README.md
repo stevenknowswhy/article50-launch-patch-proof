@@ -13,7 +13,7 @@ The European Commission's 20 July 2026 guidelines state that the AI Act Article 
 - [Read Article 50 in the EU AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50).
 - [Read the Commission's Article 50 transparency guidelines](https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems).
 - [Try the interactive fictional proof](https://article50-launch-patch-public.vercel.app/proof).
-- [Review fit and request a 20-minute technical fit check](https://article50-launch-patch-public.vercel.app/#fit).
+- [Run the private 60-second technical fit check](https://article50-launch-patch-public.vercel.app/fit-check).
 
 ## What is inspectable
 
