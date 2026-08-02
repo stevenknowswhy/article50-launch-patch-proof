@@ -15,7 +15,7 @@ The European Commission's 20 July 2026 guidelines state that the AI Act Article 
 - [Try the interactive fictional proof](https://article50-launch-patch-public.vercel.app/proof).
 - [Build a private engineering surface inventory](https://article50-launch-patch-public.vercel.app/surface-map) for up to three product surfaces; answers stay in the browser unless deliberately copied, downloaded, or emailed.
 - [Run the private 60-second technical fit check](https://article50-launch-patch-public.vercel.app/fit-check).
-- [Inspect the pinned inbound voice-agent proof](https://github.com/stevenknowswhy/article50-voice-agent-proof/releases/tag/v1.0.0), a secrets-free LiveKit and Vapi reference with AI disclosure, consent, opt-out, private-checkout, and raw-value logging guardrails. It creates no live phone resource and makes no legal determination.
+- [Inspect the pinned inbound voice-agent proof](https://github.com/stevenknowswhy/article50-voice-agent-proof/releases/tag/v1.2.0), a secrets-free LiveKit and Vapi reference with AI disclosure, consent, opt-out, private-checkout, and raw-value logging guardrails. It creates no live phone resource and makes no legal determination.
 
 ## What is inspectable
 
