@@ -6,6 +6,14 @@ This small repository demonstrates what a bounded implementation handoff can loo
 
 The example product, company, revision, requirement, and evidence are fictional. Nothing here is a client result, legal opinion, audit, certification, or compliance guarantee.
 
+## Current delivery window
+
+Forhemit Labs has two fixed-capacity implementation slots at **$9,800 each** for one TypeScript/JavaScript web product, up to three buyer-approved surfaces, and no more than 24 engineering hours delivered in five business days.
+
+The founding purchase window closes **3 August 2026 at 20:00:53 UTC (1:00:53 PM PDT)**, or earlier if both slots are purchased. [Run the private 60-second technical fit check](https://article50-launch-patch-public.vercel.app/fit-check) or [email Stefano Stokes](mailto:Stefano.Stokes@forhemit.com?subject=Article%2050%20Launch%20Patch%20fit%20check) for human review. A human qualifies fit before any private checkout is shared.
+
+Do not send credentials, sensitive code, payment-card details, or other secrets. Buyer counsel or the buyer's authorized compliance owner retains every applicability and wording decision.
+
 ## August 2026 implementation path
 
 The European Commission's 20 July 2026 guidelines state that the AI Act Article 50 transparency obligations apply from 2 August 2026. This repository does not determine whether those obligations apply to a product. It gives technical teams an inspectable implementation pattern after qualified counsel or an authorized compliance owner has made that decision and approved the wording and acceptance criteria.
